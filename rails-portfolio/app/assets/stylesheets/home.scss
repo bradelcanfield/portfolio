@@ -1,0 +1,75 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 31%;
+  overflow: hidden;
+}
+
+ul#nav-bar li {
+  float: left;
+}
+
+ul#nav-bar li a {
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: 200;
+  font-size: 16px;
+  font-family: sans-serif;
+  -webkit-clip-path: polygon(0 30%, 30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%);
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+
+li a:hover {
+  background-color: #63B8FF;
+}
+
+#title {
+  margin-left: 33%;
+  color: white;
+}
+
+#home-prof-pic {
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+
+// Contact Page CSS
+div#contact-heading {
+  padding-left: 30%;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+#contact-info p:first-child {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-left: 30%;
+  text-decoration: underline;
+}
+
+#contact-info p:nth-child(2) {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-left: 30%;
+}
+
+#linkedin img {
+  height: 30%;
+  width: 30%;
+}
+
+#contact-prof-pic {
+  float: left;
+}
